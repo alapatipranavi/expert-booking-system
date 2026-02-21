@@ -48,7 +48,7 @@ io.on("connection", (socket) => {
 
 app.use(express.static(path.join(__dirname, "../frontend/dist")));
 
-app.get("/*", (req, res) => {
+app.use((req, res) => {
   res.sendFile(path.join(frontendPath, "index.html"));
 });
 /* ------------------ SERVER START ------------------ */
