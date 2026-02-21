@@ -202,8 +202,7 @@ Backend runs normally on Node server.
 
 # 🌍 Deployment
 
-Frontend → Vercel  
-Backend → Render  
+Frontend + Backend → render
 
 ---
 
